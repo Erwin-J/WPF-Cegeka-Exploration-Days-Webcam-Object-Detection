@@ -1,0 +1,16 @@
+﻿<Window x:Class="WPF_Exploration_Days_ML.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Exploration_Days_ML"
+        mc:Ignorable="d"
+        Title="Exploration Days ML" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Image x:Name="Webcam" Grid.Row="0" Stretch="Uniform"></Image>
+    </Grid>
+</Window>
